@@ -4,7 +4,6 @@
   src: url("fonts/icomoon.eot?#iefix-8ulb4c") format("embedded-opentype"), url("fonts/icomoon.woff?-8ulb4c") format("woff"), url("fonts/icomoon.ttf?-8ulb4c") format("truetype"), url("fonts/icomoon.svg?-8ulb4c#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 q {
   background: -webkit-gradient(radial, 250 50, 0, 250 50, 800, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0))) transparent;
   background: -moz-radial-gradient(250px 50px, rgba(255, 255, 255, 0.4), transparent) transparent; }
@@ -93,12 +92,12 @@ header {
       display: inline-block; }
   header input {
     display: none; }
-  @media screen and (min-width: 300px) {
+  @media only screen and (min-width: 300px) {
     header nav li a {
       width: 50%;
       float: left;
       box-sizing: border-box; } }
-  @media screen and (min-width: 560px) {
+  @media only screen and (min-width: 560px) {
     header input, header label {
       display: none; }
     header nav {
@@ -175,3 +174,5 @@ footer {
 
 img {
   max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
