@@ -59,6 +59,8 @@ a {
 
 header {
   float: right; }
+  header img {
+    float: left; }
   header nav {
     height: auto; }
     header nav ul {
